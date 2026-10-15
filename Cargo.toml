@@ -1,0 +1,15 @@
+[package]
+name = "server-rs"
+version = "0.1.0"
+edition = "2024"
+description = "A configurable static HTTP and IPP printing server"
+license = "MIT"
+
+[dependencies]
+env_logger = "0.11.11"
+ipp = "7.0.0"
+libc = "0.2.190"
+log = "0.4.34"
+mime_guess = "2.0.5"
+tokio = { version = "1.53.3", features = ["macros", "rt-multi-thread", "net", "io-util", "time", "signal", "fs"] }
+tokio-util = { version = "0.7.20", features = ["compat"] }

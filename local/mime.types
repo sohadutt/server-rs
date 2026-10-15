@@ -1,0 +1,43 @@
+# One file extension and media type per line.
+html text/html
+htm text/html
+css text/css
+js text/javascript
+mjs text/javascript
+json application/json
+map application/json
+txt text/plain
+text text/plain
+csv text/csv
+xml application/xml
+pdf application/pdf
+ps application/postscript
+wasm application/wasm
+zip application/zip
+webmanifest application/manifest+json
+
+svg image/svg+xml
+avif image/avif
+bmp image/bmp
+gif image/gif
+ico image/vnd.microsoft.icon
+jpeg image/jpeg
+jpg image/jpeg
+png image/png
+webp image/webp
+
+mp3 audio/mpeg
+oga audio/ogg
+ogg audio/ogg
+wav audio/wav
+
+mp4 video/mp4
+mpeg video/mpeg
+ogv video/ogg
+webm video/webm
+
+otf font/otf
+ttf font/ttf
+woff font/woff
+woff2 font/woff2
+eot application/vnd.ms-fontobject
